@@ -1,0 +1,46 @@
+@media (max-width: 320px) {
+  .katalog {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}
+@media (max-width: 375px) {
+  .katalog {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}
+@media (max-width: 425px) {
+  .burger {
+    display: block;
+  }
+  .katalog {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .bur {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .bur {
+    display: block;
+  }
+  .icons {
+    width: 15%;
+  }
+  .katalog {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .katalog {
+    width: 70%;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,151 @@
+.container {
+  width: 90%;
+  max-width: 1700px;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.okrug {
+  background: url("../../image/Ellipse\ 1.png") no-repeat center center;
+  background-size: 100%;
+  width: 450px;
+  height: 450px;
+}
+.left {
+  width: 50%;
+}
+.left h1 {
+  width: 80%;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 1;
+}
+.left p {
+  width: 68%;
+  font-weight: 100;
+  text-align: left;
+  font-size: 18px;
+}
+.buy {
+  width: 200px;
+  height: 50px;
+  border: none;
+  font-size: 15px;
+  color: white;
+  background-color: #9db9ff;
+  border-radius: 500px;
+}
+.right img {
+  padding: 15%;
+}
+.title_right-3 {
+  line-height: 1;
+  padding-top: 1%;
+}
+.title_right-3 h4 {
+  line-height: 0.1;
+}
+.section-block-3-left {
+  padding-top: 5%;
+  /* border-top: 5%; */
+  border-bottom: 1px solid black;
+}
+@media (max-width: 1024px) {
+  .left h1 {
+    font-size: 37px;
+  }
+  .titile-left-clone-2 {
+    font-size: 14px;
+  }
+  .section-block-3-right {
+    display: none;
+  }
+  .section-block-3-left {
+    width: 130%;
+  }
+  .okrug {
+    width: 300px;
+  }
+  .right img {
+    width: 70%;
+    padding: 36%;
+    position: relative;
+    right: 25%;
+  }
+  .left h1 {
+    font-size: 34px;
+    width: 100%;
+  }
+  .left p {
+    width: 80%;
+  }
+  .title-left-2 h1 {
+    font-size: 20px;
+  }
+  .title-right-3 h3 {
+    width: 139%;
+    font-size: 17px;
+  }
+  .titile-left-clone-2 {
+    font-size: 13px;
+    width: 40%;
+  }
+  .title-right-3 h3 {
+    width: 100%;
+    font-size: 18px;
+  }
+}
+@media (max-width: 425px) {
+  .section1 {
+    flex-wrap: wrap;
+  }
+  .left {
+    width: 100%;
+  }
+  .title-box-2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .title-right-3 h3 {
+    width: 101%;
+    font-size: 15px;
+  }
+  .title-right-3 {
+    width: 100%;
+  }
+  .title-box-clone-2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .titile-left-clone-2 {
+    width: 100%;
+  }
+  .main-3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .MuiAccordionSummary-content p {
+    width: 100%;
+  }
+  .css-wcp8hc-MuiTypography-root {
+    width: 104%;
+  }
+  .imaage_left_3 img {
+    width: 65%;
+  }
+  .asdd h1 {
+    font-size: 21px;
+  }
+  .title_3e {
+    font-size: 12px;
+  }
+  .but-buy {
+    width: 150px;
+    margin-bottom: 29px;
+    height: 47px;
+  }
+}
